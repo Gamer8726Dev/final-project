@@ -193,8 +193,26 @@ HEADER / ABOUT US ↓
 
 */
 
-.header__description--para {
-    
+div.header__description {
+  width: 40%;
+}
+
+h1 {
+  font-size:  48px;
+  color: #1a202c;
+  line-height: 1.25;
+}
+
+span.purple{
+ color: #6415ff 
+}
+
+div.header__description {
+ width: 40%;
+}
+
+p.header__desription--para{
+  margin: 32px 0px;
 }
 
 header .row {
@@ -203,8 +221,7 @@ header .row {
   justify-content: space-between;
 }
 
-header__description--para {
-}
+
 
 /* 
 
