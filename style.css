@@ -279,6 +279,34 @@ input.header__email--input:focus {
   border-color:#6415ff;
 }
 
+img.header__customers {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: 0.5;
+}
+p.header__customers--title {
+  margin-top: 80px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6;
+}
+
+img.header__customers {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: 0.5;
+}
+
+figure.header__img--wrapper {
+  width: calc(100% - 40%);
+}
+
+img.header__img {
+ width: 100%;
+ max-width: 768px;
+}
+
 /* 
 
 FEATURES ↓
