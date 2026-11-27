@@ -1363,6 +1363,41 @@ div.footer__socials {
 i.fa-regular.fa-copyright {
   color: #f7fafc;
 }
+
+.footer__social--link {
+  margin-left: 16px;
+  padding: 8px;
+  background: #f7fafc;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+a.footer__social--link {
+  margin-left: 16px;
+  padding: 8px;
+  background: #f7fafc;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.footer__social--link svg {
+  height: 16px;
+  width: 16px;
+}
+
+path[AttributesStyle] {
+  d: path("M 22.162 5.656 a 8.384 8.384 0 0 1 -2.402 0.658 A 4.196 4.196 0 0 0 21.6 4 c -0.82 0.488 -1.719 0.83 -2.656 1.015 a 4.182 4.182 0 0 0 -7.126 3.814 a 11.874 11.874 0 0 1 -8.62 -4.37 a 4.168 4.168 0 0 0 -0.566 2.103 c 0 1.45 0.738 2.731 1.86 3.481 a 4.168 4.168 0 0 1 -1.894 -0.523 v 0.052 a 4.185 4.185 0 0 0 3.355 4.101 a 4.21 4.21 0 0 1 -1.89 0.072 A 4.185 4.185 0 0 0 7.97 16.65 a 8.394 8.394 0 0 1 -6.191 1.732 a 11.83 11.83 0 0 0 6.41 1.88 c 7.693 0 11.9 -6.373 11.9 -11.9 c 0 -0.18 -0.005 -0.362 -0.013 -0.54 a 8.496 8.496 0 0 0 2.087 -2.165 Z");
+}
+
+
 /* 
 
 MOBILE RESPONSIVENESS ↓
